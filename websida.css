@@ -1,0 +1,99 @@
+.h1{
+    color: rgb(5, 99, 182);
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.paragraf{
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+    flex-direction:column;
+    margin: left 1em;
+    color:rgb(5, 99, 182);
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-align:center
+}
+ul{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    list-style: none;
+    color:rgb(161, 182, 5);
+    font-family: sans-serif;
+    font-weight: 1000;  
+    border-color: brown; 
+}
+
+a{
+    color: rgb(0, 179, 250);
+}
+
+.kebab{ 
+    display: inline-block;
+    margin:auto 0;
+    height: 300px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.rappare{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin-left: 200px;
+    border-radius: 50px;
+}
+.dogge{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    float: right;
+    margin-right: 200px;
+    border-radius: 50px;
+    
+}
+.rappare:hover{
+    transform:scale(1.1);
+    box-shadow: 1px 1px 50px;
+    color:rgb(5, 99, 182);
+    transition:ease-in-out 0.3s;
+}
+
+.kebab {
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    margin: 0 10px; 
+    border-radius: 50px;
+}
+
+.kebab:hover{
+    transform:scale(1.1);
+    box-shadow: 1px 1px 50px;
+    color:rgb(5, 99, 182);
+    transition:ease-in-out 0.3s;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogge:hover{
+    transform:scale(1.1);
+    box-shadow: 1px 1px 50px;
+    color:rgb(5, 99, 182);
+    transition:ease-in-out 0.3s;
+    
+}
+
+body{
+    background-color: rgb(57, 56, 75);
+    margin: 0;
+    padding: 1px;
+}
