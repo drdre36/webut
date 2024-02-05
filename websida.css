@@ -32,6 +32,9 @@ a{
     color: rgb(0, 179, 250);
 }
 
+nav{
+    border-bottom: 2px rgba(9, 190, 255, 0.532) solid;
+}
 .kebab{ 
     display: inline-block;
     margin:auto 0;
