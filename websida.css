@@ -1,18 +1,30 @@
 .h1{
-    color: rgb(5, 99, 182);
+    color: rgb(7, 134, 245);
     font-family: sans-serif;
     font-weight: 1000;
     text-align: center;
     text-decoration: underline;
 
 }
-.paragraf{
+.om-mig {
     display: flex;
     list-style:none;
     justify-content: space-evenly;
     flex-direction:column;
     margin: left 1em;
-    color:rgb(5, 99, 182);
+    color:rgb(7, 37, 63);
+    font-family: sans-serif;
+    font-weight: 1000;
+    text-align:center
+}
+
+.kebab-text{
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+    flex-direction:column;
+    margin: left 1em;
+    color:rgb(18, 123, 215);
     font-family: sans-serif;
     font-weight: 1000;
     text-align:center
@@ -42,6 +54,13 @@ nav{
     width: 200px;
     border-radius: 50px;
 }
+.om-mig-bild {
+    display: inline-block;
+    margin:auto 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
 
 .rappare{
     display: flex;
@@ -51,22 +70,32 @@ nav{
     margin-left: 200px;
     border-radius: 50px;
 }
-.dogge{
+.bilder{
     display: flex;
+    justify-content: space-around;
     height: 300px;
     width: 200px;
     float: right;
-    margin-right: 200px;
-    border-radius: 50px;
+    margin:auto;
+    max-width:100%;
     
 }
-.rappare:hover{
+.bilder:hover{
     transform:scale(1.1);
     box-shadow: 1px 1px 50px;
     color:rgb(5, 99, 182);
     transition:ease-in-out 0.3s;
 }
-
+.ruta{
+    justify-content: center;
+    color: rgb(78, 212, 212);
+    border: 3px solid;
+    border-radius: 40px;
+    width: 500px;
+    max-width: 90%;
+    margin: 50px auto 0;
+    background-image: url(bilder/blåbakgrund.jpg);
+}
 .kebab {
     display: inline-block;
     height: 300px;
@@ -97,6 +126,6 @@ nav{
 
 body{
     background-color: rgb(57, 56, 75);
-    margin: 0;
+    margin: auto;
     padding: 1px;
 }
